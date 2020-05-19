@@ -1,0 +1,10 @@
+Player1,0.1
+Player2,0.09
+Player3,0.08
+Player4,0.07
+Player5,0.06
+Player6,0.05
+Player7,0.04
+Player8,0.03
+Player9,0.02
+Player10,0.01

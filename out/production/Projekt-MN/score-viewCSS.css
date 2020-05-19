@@ -1,0 +1,13 @@
+.label {
+    -fx-text-fill: white;
+    -fx-font-family: "Sitka Small";
+    -fx-font-size: 18;
+    -fx-font-weight:bold;
+}
+
+.label#title {
+    -fx-text-fill: linear-gradient(#FFF000, #AAA000);
+    -fx-font-family: "Sitka Small";
+    -fx-font-size: 24;
+    -fx-font-weight:bold;
+}

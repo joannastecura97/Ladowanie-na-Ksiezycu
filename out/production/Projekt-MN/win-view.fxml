@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="user_interface.classes.controller.WinViewController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pictures/win.png" />
+         </image>
+      </ImageView>
+      <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0">
+         <center>
+            <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" spacing="10.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label text="&quot;That's one small step for a man," textFill="WHITE">
+                     <font>
+                        <Font name="Sitka Small Bold Italic" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label text="one giant leap for mankind&quot;" textFill="WHITE">
+                     <font>
+                        <Font name="Sitka Small Bold Italic" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="infoLabel" text="Please enter your nickname:" textFill="#ffd889">
+                     <font>
+                        <Font name="Sitka Small Bold" size="12.0" />
+                     </font></Label>
+                  <TextField fx:id="nameTextField" maxWidth="-Infinity">
+                     <font>
+                        <Font name="Sitka Small Bold" size="12.0" />
+                     </font></TextField>
+                  <Button fx:id="backBtn" mnemonicParsing="false" onAction="#onClickBackBtn" style="-fx-background-color: #006699; -fx-background-radius: 50;" text="BACK" textFill="WHITE">
+                     <font>
+                        <Font name="Sitka Small Bold" size="19.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="100.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+               <BorderPane.margin>
+                  <Insets top="30.0" />
+               </BorderPane.margin>
+            </VBox>
+         </center>
+      </BorderPane>
+   </children>
+</Pane>

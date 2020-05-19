@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="How To Crash Your Rocket 1">
+    <output-path>$PROJECT_DIR$/out/artifacts/How_To_Crash_Your_Rocket_1</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="user_interface.classes.Main" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="title" value="How To Crash Your Rocket 1" />
+        <option name="vendor" value="" />
+        <option name="version" value="" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="Projekt_MN.jar">
+        <element id="module-output" name="Projekt-MN" />
+      </element>
+    </root>
+  </artifact>
+</component>

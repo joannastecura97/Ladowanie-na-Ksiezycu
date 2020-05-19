@@ -1,0 +1,10 @@
+Kuba1,1000
+Kuba2,900
+Kuba3,800
+Kuba4,700
+Kuba5,600
+Kuba6,500
+Kuba7,400
+Kuba8,300
+Kuba9,200
+Kuba10,100

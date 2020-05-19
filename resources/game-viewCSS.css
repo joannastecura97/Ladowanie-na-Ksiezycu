@@ -1,0 +1,10 @@
+.slider .thumb {
+    -fx-background-image :url("pictures/handle.png");
+    -fx-background-color: transparent;
+    -fx-background-size: 40;
+    -fx-pref-height: 10;
+    -fx-pref-width: 41;
+}
+
+
+
